@@ -1,0 +1,25 @@
+.contenedor_b{
+    padding: 10px;
+    background-color: aqua;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_buscar{
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabla{
+    border: 1px solid black;
+}
+
+.cabeza{
+    background-color: blueviolet;
+}
+.fila{
+    border: 1px solid black;
+}
