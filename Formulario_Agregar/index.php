@@ -45,9 +45,8 @@
                             <th class="fila"><?php echo $row['departamento'];?></th>
                             <th class="fila"><?php echo $row['comentario'];?></th>
                             <th class="fila"><?php echo $row['desea'];?></th>
-                            <th class="fila"><a href="">zaa</a></th>
-                            <th class="fila"><?php echo $row['desea'];?></th>
-
+                            <th class="fila"><a href="modificar.php?idempleado=<?php echo $row['id']?>">MODIFICAR</a></th>
+                            <th class="fila"><a href="eliminar.php?idempleado=<?php echo $row['id']?>">ELIMINAR</a></th>
                         </tr>
                         <?php } ?>
                 </tbody>
