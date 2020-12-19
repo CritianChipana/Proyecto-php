@@ -23,10 +23,10 @@ require("conexion.php");
                 <div class="contedor_a">
                     <div class="contenedor_b">
 
-                        <form action="modificar.php" method="post">
+                        <form action="modificar.php" method="get">
 
-                        <label for="id">Codigo:<br>
-                                <input disabled value="<?php echo $vector_dato[0] ?>" type="text" name="id" id="id">
+                            <label for="id">Codigo:<br>
+                                <input  value="<?php echo $vector_dato[0] ?>" type="text" name="codigo" id="id">
                             </label><br>
 
                             <label for="nombre">Nombre y Apellido:<br>

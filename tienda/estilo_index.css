@@ -1,0 +1,15 @@
+body{
+    background-image: url(https://i.pinimg.com/564x/a3/ab/90/a3ab905d8a65a01b8c6bbcd7815f93d0.jpg);
+    
+}
+
+
+.nav-link:hover{
+    
+    background-color: rgb(206, 126, 51);
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
